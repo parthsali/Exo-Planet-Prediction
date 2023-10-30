@@ -1,0 +1,49 @@
+/* HomePage.css */
+
+.home-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #3498db;
+    margin-bottom: 5px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.team-member {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Add additional styling as needed */
+
+.goto-predict {
+
+    display: flex;
+    justify-content: center;
+}
+
+.goto-predict a button {
+    width: 150px;
+    border-radius: 5px;
+    font-size: 14px;
+}
