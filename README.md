@@ -11,11 +11,6 @@ The Exoplanet Prediction Project is a comprehensive system integrating a React f
 Allows users to upload data files in various formats (e.g., CSV, Excel).
 Sends the uploaded file to the Flask server for processing.
 
-### Data Visualization Component
-
-Displays visualizations of the dataset, model predictions, and other relevant insights.
-Utilizes charting libraries (e.g., Chart.js, D3.js) for graphical representation.
-
 ### User Interface Components
 
 Includes components for user interaction, such as input forms and buttons.
@@ -30,19 +25,12 @@ Sends requests for data processing, predictions, and visualizations.
 
 ### Endpoints
 
-- `/upload`: Receives and processes uploaded data files, stores relevant information in the database.
 - `/predict`: Accepts feature data, applies the Random Forest algorithm, and returns predictions.
-- `/visualize`: Provides data for visualizations, such as statistical summaries.
 
 ### Communication
 
 - Communicates with the frontend using RESTful API endpoints.
 - Utilizes Flask routes to handle different types of requests.
-
-### Database
-
-- Stores relevant metadata, uploaded datasets, and processed information.
-- Utilizes a database system (e.g., SQLite, PostgreSQL) for efficient data storage.
 
 ### Random Forest Model
 
@@ -129,11 +117,6 @@ Obtained from a reputable astronomical database or a relevant scientific source.
 
 - Involves the creation of decision trees using bootstrapped samples and random feature subsets.
 - Aggregates predictions from individual trees to make a final prediction.
-
-### Hyperparameter Tuning
-
-- Hyperparameters (e.g., number of trees, maximum depth) are optimized for model performance.
-- Grid search or random search techniques may be used for tuning.
 
 ### Feature Importance
 
