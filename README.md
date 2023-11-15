@@ -2,7 +2,13 @@
 
 ## Overview
 
-The Exoplanet Prediction Project is a comprehensive system integrating a React frontend with Vite and a Flask backend. The project involves uploading, processing, and visualizing exoplanet datasets using a Random Forest model. This README provides an overview of the project's architecture, dataset description, detailed phases, and algorithms used.
+The Exoplanet Prediction Project is a collaborative effort by a talented team:
+
+- **[Parth Sali (33166)](https://github.com/parthsali)**
+- **Aditya Tambe (33175)**
+- **Shivanjali Thorat (33177)**
+
+The project seamlessly integrates a React frontend with Vite and a Flask backend to facilitate the upload, processing, and visualization of exoplanet datasets using a Random Forest model. Let's dive into the details.
 
 ## Frontend (React with Vite)
 
